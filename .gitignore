@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Lab 21 weights and zip archives
+*.zip
+*.tar.gz
+*.tgz
+lab21_lora_t4/
+notebooks/lab21_lora_t4*
+adapters/
+results/

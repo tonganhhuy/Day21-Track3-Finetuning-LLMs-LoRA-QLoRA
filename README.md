@@ -35,13 +35,13 @@ Day21_Fine-tuning/
 4. In `Lab21_Rubric_and_Format.md` phát cho học viên
 
 ### Cho **Học viên**:
-1. Đọc `Lab21_Rubric_and_Format.md` để biết deliverable + scoring
-2. Chọn notebook phù hợp với GPU:
-   - **Free Colab (T4 16GB)** → `Lab21_LoRA_Finetuning_T4.ipynb`
-   - **Pro/A100/L4** → `Lab21_LoRA_Finetuning_BigGPU.ipynb`
-3. Upload notebook lên Colab → `Runtime > Change runtime type > GPU` → `Run all`
-4. Hoàn thành lab + viết REPORT.md theo template
-5. Nộp zip qua LMS
+1. **Mở Google Colab**: Truy cập [Google Colab](https://colab.research.google.com/).
+2. **Upload Notebook**: Chọn tab **Upload** và tải lên file `notebooks/Lab21_LoRA_Finetuning_T4.ipynb`.
+3. **Cấu hình GPU**: Chọn `Runtime > Change runtime type` (Thời gian chạy > Thay đổi loại thời gian chạy), chọn **T4 GPU** làm hardware accelerator rồi nhấn Save.
+4. **Chạy toàn bộ notebook**: Chọn `Runtime > Run all` (Thời gian chạy > Chạy tất cả). 
+   - *Lưu ý*: Mặc định kết quả sẽ được lưu vào thư mục `/content/lab21_lora_t4` trên Colab. Bạn có thể chỉnh `MOUNT_DRIVE = True` ở cell 5 để tự động lưu vào Google Drive cá nhân của bạn.
+5. **Tải kết quả về**: Sau khi chạy xong, hãy tải thư mục kết quả `lab21_lora_t4` về máy (thư mục này chứa các tệp trọng số `r8`, `r16`, `r64`, tệp so sánh `qualitative_comparison.csv`, bảng tổng hợp `rank_experiment_summary.csv` và đồ thị `loss_curve.png`).
+6. **Báo cáo kết quả**: Chúng tôi đã tạo sẵn cho bạn một tệp báo cáo chi tiết **[REPORT.md](file:///d:/Vin_AI_Train/Day_21/Day21-Track3-Finetuning-LLMs-LoRA-QLoRA/REPORT.md)** ở thư mục gốc của dự án. Hãy mở ra, điền tên & MSSV của bạn là có thể sử dụng ngay để nộp bài!
 
 ---
 
